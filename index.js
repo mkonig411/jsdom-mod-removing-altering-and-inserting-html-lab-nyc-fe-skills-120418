@@ -2,6 +2,7 @@
 document.remove(main)
 
 /* Create your new element here and assign it to newHeader */
-const newHeader = document.body.createH1('Margot is the champion!')
+const newHeader = document.body.createH1
+newHeader.innerHTML = 'Margot is the champion!'
 
 
